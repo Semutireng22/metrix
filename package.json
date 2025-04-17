@@ -1,0 +1,20 @@
+{
+    "name": "maitrix-auto-stake",
+    "version": "1.0.0",
+    "description": "Auto claim faucet, mint AUSD, and stake tokens (AUSD, USDe, LVLUSD) on Arbitrum Sepolia Testnet with proxy and multi-wallet support",
+    "main": "main.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "dependencies": {
+      "axios": "^1.6.8",
+      "chalk": "^4.1.2",
+      "dotenv": "^16.3.1",
+      "ethers": "^5.7.2",
+      "https-proxy-agent": "^7.0.2",
+      "ora": "^5.4.1"
+    },
+    "author": "Slamet Wibowo",
+    "license": "MIT"
+  }
+  
